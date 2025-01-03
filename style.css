@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'ariblk'; 
+    src: url('./font/ariblk.ttf');
+    
+}
+@font-face {
+    font-family: 'gazeta'; 
+    src: url('./font/gazzeta/GazetaDemiBold.ttf');
+    
+}
+
+.font-ariblk {
+    font-family: 'ariblk'; 
+}
+.font-gazeta{
+    font-family: 'gazeta';
+}

@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Gazeta Extra';
+    src: url('GazetaExtraBoldItalic.eot');
+    src: local('Gazeta Extra Bold Italic'), local('GazetaExtraBoldItalic'),
+        url('GazetaExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('GazetaExtraBoldItalic.woff2') format('woff2'),
+        url('GazetaExtraBoldItalic.woff') format('woff'),
+        url('GazetaExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gazeta Book';
+    src: url('GazetaBook.eot');
+    src: local('Gazeta Book'), local('GazetaBook'),
+        url('GazetaBook.eot?#iefix') format('embedded-opentype'),
+        url('GazetaBook.woff2') format('woff2'),
+        url('GazetaBook.woff') format('woff'),
+        url('GazetaBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaLightItalic.eot');
+    src: local('Gazeta Light Italic'), local('GazetaLightItalic'),
+        url('GazetaLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('GazetaLightItalic.woff2') format('woff2'),
+        url('GazetaLightItalic.woff') format('woff'),
+        url('GazetaLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gazeta Text';
+    src: url('GazetaTextItalic.eot');
+    src: local('Gazeta Text Italic'), local('GazetaTextItalic'),
+        url('GazetaTextItalic.eot?#iefix') format('embedded-opentype'),
+        url('GazetaTextItalic.woff2') format('woff2'),
+        url('GazetaTextItalic.woff') format('woff'),
+        url('GazetaTextItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gazeta Extra';
+    src: url('GazetaExtraLight.eot');
+    src: local('Gazeta Extra Light'), local('GazetaExtraLight'),
+        url('GazetaExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('GazetaExtraLight.woff2') format('woff2'),
+        url('GazetaExtraLight.woff') format('woff'),
+        url('GazetaExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaDemiBold.eot');
+    src: local('Gazeta DemiBold'), local('GazetaDemiBold'),
+        url('GazetaDemiBold.eot?#iefix') format('embedded-opentype'),
+        url('GazetaDemiBold.woff2') format('woff2'),
+        url('GazetaDemiBold.woff') format('woff'),
+        url('GazetaDemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gazeta Book';
+    src: url('GazetaBookItalic.eot');
+    src: local('Gazeta Book Italic'), local('GazetaBookItalic'),
+        url('GazetaBookItalic.eot?#iefix') format('embedded-opentype'),
+        url('GazetaBookItalic.woff2') format('woff2'),
+        url('GazetaBookItalic.woff') format('woff'),
+        url('GazetaBookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaMediumItalic.eot');
+    src: local('Gazeta Medium Italic'), local('GazetaMediumItalic'),
+        url('GazetaMediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('GazetaMediumItalic.woff2') format('woff2'),
+        url('GazetaMediumItalic.woff') format('woff'),
+        url('GazetaMediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gazeta Text';
+    src: url('GazetaText.eot');
+    src: local('Gazeta Text'), local('GazetaText'),
+        url('GazetaText.eot?#iefix') format('embedded-opentype'),
+        url('GazetaText.woff2') format('woff2'),
+        url('GazetaText.woff') format('woff'),
+        url('GazetaText.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaBold.eot');
+    src: local('Gazeta Bold'), local('GazetaBold'),
+        url('GazetaBold.eot?#iefix') format('embedded-opentype'),
+        url('GazetaBold.woff2') format('woff2'),
+        url('GazetaBold.woff') format('woff'),
+        url('GazetaBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaMedium.eot');
+    src: local('Gazeta Medium'), local('GazetaMedium'),
+        url('GazetaMedium.eot?#iefix') format('embedded-opentype'),
+        url('GazetaMedium.woff2') format('woff2'),
+        url('GazetaMedium.woff') format('woff'),
+        url('GazetaMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaSemiBoldtalic.eot');
+    src: local('Gazeta SemiBold Italic'), local('GazetaSemiBoldtalic'),
+        url('GazetaSemiBoldtalic.eot?#iefix') format('embedded-opentype'),
+        url('GazetaSemiBoldtalic.woff2') format('woff2'),
+        url('GazetaSemiBoldtalic.woff') format('woff'),
+        url('GazetaSemiBoldtalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaSemiBold.eot');
+    src: local('Gazeta SemiBold'), local('GazetaSemiBold'),
+        url('GazetaSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('GazetaSemiBold.woff2') format('woff2'),
+        url('GazetaSemiBold.woff') format('woff'),
+        url('GazetaSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaRegular.eot');
+    src: local('Gazeta Regular'), local('GazetaRegular'),
+        url('GazetaRegular.eot?#iefix') format('embedded-opentype'),
+        url('GazetaRegular.woff2') format('woff2'),
+        url('GazetaRegular.woff') format('woff'),
+        url('GazetaRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gazeta Extra';
+    src: url('GazetaExtraLightItalic.eot');
+    src: local('Gazeta Extra Light Italic'), local('GazetaExtraLightItalic'),
+        url('GazetaExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('GazetaExtraLightItalic.woff2') format('woff2'),
+        url('GazetaExtraLightItalic.woff') format('woff'),
+        url('GazetaExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gazeta Extra';
+    src: url('GazetaExtraBold.eot');
+    src: local('Gazeta Extra Bold'), local('GazetaExtraBold'),
+        url('GazetaExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('GazetaExtraBold.woff2') format('woff2'),
+        url('GazetaExtraBold.woff') format('woff'),
+        url('GazetaExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaItalic.eot');
+    src: local('Gazeta Italic'), local('GazetaItalic'),
+        url('GazetaItalic.eot?#iefix') format('embedded-opentype'),
+        url('GazetaItalic.woff2') format('woff2'),
+        url('GazetaItalic.woff') format('woff'),
+        url('GazetaItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaDemiBoldItalic.eot');
+    src: local('Gazeta DemiBold Italic'), local('GazetaDemiBoldItalic'),
+        url('GazetaDemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('GazetaDemiBoldItalic.woff2') format('woff2'),
+        url('GazetaDemiBoldItalic.woff') format('woff'),
+        url('GazetaDemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaLight.eot');
+    src: local('Gazeta Light'), local('GazetaLight'),
+        url('GazetaLight.eot?#iefix') format('embedded-opentype'),
+        url('GazetaLight.woff2') format('woff2'),
+        url('GazetaLight.woff') format('woff'),
+        url('GazetaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gazeta';
+    src: url('GazetaBoldItalic.eot');
+    src: local('Gazeta Bold Italic'), local('GazetaBoldItalic'),
+        url('GazetaBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('GazetaBoldItalic.woff2') format('woff2'),
+        url('GazetaBoldItalic.woff') format('woff'),
+        url('GazetaBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
