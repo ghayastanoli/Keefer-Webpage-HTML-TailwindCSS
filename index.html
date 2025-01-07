@@ -10,13 +10,13 @@
 <body>
     <header class="header">
         <div class="max-w-[1350px] w-full mx-auto">
-            <div class="flex justify-between ">
+            <div class="flex flex-col justify-center md:flex-row md:justify-between  ">
                 <div class="logo-img">
-                    <img src="images/logo.png" alt="">
+                    <img src="images/logo.png" alt="" class="w-[100%]">
                 </div>
                 <div>
-                    <div class="text-center pr-6 pt-4">
-                        <div>
+                    <div class="text-center md:pr-6 pt-4">
+                        <div class="flex justify-center">
                             <p class="text-[#a11a31]  border-b-2 tracking-widest text-lg font-segoe-ui font-bold">CALL OUR SERVICES NOW!</p>
                         </div>
                         <div class="text-3xl tracking-widest">
@@ -35,61 +35,84 @@
 <section class="sec2">
     <div>
         <div class="bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)]" >
+               
         <ul class="flex justify-end gap-3 text-md px-5 text-white font-medium text-med max-w-[1350px] w-full mx-auto ">
-            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300">HOME</li>
-            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300">BIOGRAPHY</li>
-            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300">BLOG</li>
-            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300">AREAS WE SERVE</li>
-            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300">LIBRARY</li>
-            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300">CONTACT</li>
+            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300 max-[672px]:hidden">HOME</li>
+            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300 max-[672px]:hidden">BIOGRAPHY</li>
+            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300 max-[672px]:hidden">BLOG</li>
+            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300 max-[672px]:hidden">AREAS WE SERVE</li>
+            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300 max-[672px]:hidden">LIBRARY</li>
+            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300 max-[672px]:hidden">CONTACT</li>
+            <li class="p-2 hover:bg-gray-700 hover:text-white cursor-pointer transition duration-300 "></li>
+            
+            <div class="flex justify-end">
+                <!-- Hamburger Menu -->
+                <button id="menu-btn" class="p-2 text-white max-[672px]:block hidden">
+                   <!-- Hamburger Icon -->
+                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                   </svg>
+                 </button>
+               </div>
+            
+        </ul>
+        
+           <ul id="menu" class="hidden flex-col items-start gap-3 bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] text-md px-5 text-white font-medium max-w-[1350px] w-full mx-auto max-[560px]:absolute max-[560px]:top-10 max-[560px]:left-0 max-[560px]:z-10 max-[560px]:w-full max-[560px]:rounded shadow-lg">
+            <li class="p-2 w-full text-left hover:bg-gray-600 hover:text-white cursor-pointer transition duration-300">HOME</li>
+            <li class="p-2 w-full text-left hover:bg-gray-600 hover:text-white cursor-pointer transition duration-300">BIOGRAPHY</li>
+            <li class="p-2 w-full text-left hover:bg-gray-600 hover:text-white cursor-pointer transition duration-300">BLOG</li>
+            <li class="p-2 w-full text-left hover:bg-gray-600 hover:text-white cursor-pointer transition duration-300">AREAS WE SERVE</li>
+            <li class="p-2 w-full text-left hover:bg-gray-600 hover:text-white cursor-pointer transition duration-300">LIBRARY</li>
+            <li class="p-2 w-full text-left hover:bg-gray-600 hover:text-white cursor-pointer transition duration-300">CONTACT</li>
         </ul>
         </div>
+       
     </div>
 </section>
 <section>
     <div class="max-w-[1350px] w-full mx-auto">
-        <div class="flex flex-col xl:flex-row items-center  w-full justify-around px-8 gap-4 py-4">
-            <div class="w-[52%]" >
+        <div class="flex flex-col  xl:flex-row items-center  w-full justify-around px-8 gap-4 py-4">
+            <div class="xl:w-[56%] w-[100%] " >
                 <img src="images/gurantee_banner.gif" alt="" class="w-[100%] h-[100%] shadow-[0px_4px_6px_rgba(0,0,0,0.4)]">
             </div>
-            <div class="w-[48%]">
+            <div class="xl:w-[46%] w-[100%]">
             <div class="bg-[url('./images/form_bg.jpg')] bg-no-repeat bg-cover w-[100%] h-[100%] shadow-[0px_4px_6px_rgba(0,0,0,0.4)] overflow-hidden pb-[20px]">
-                <div class="flex gap-2">
+                <div class="flex gap-2 max-[595px]:flex-col">
                     <div>
                         <div>
-                        <h3 class="text-white bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)] text-2xl font-medium p-2">QUESTIONS?</h3>
+                        <h3 class="text-left max-[595px]:text-center text-white bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)] text-2xl font-medium p-2">QUESTIONS?</h3>
                         </div>
                     </div>
                     <div>
-                    <p class="text-xl pt-1 max-w-[80%]">Have a <span class="text-4xl font-bold text-blue-950">Question</span> About Your Case?</p>
+                    <p class="text-xl max-[595px]:text-center pt-1 min-[595px]:max-w-[80%]">Have a <span class="text-4xl font-bold text-blue-950">Question</span> About Your Case?</p>
                     </div>
                 </div>
                 <div class="">
-                    <p class="max-w-[98%] pl-6">Enter your information and get your questions answered quickly and discreetly or call us at: <span class="font-bold ">540.433.6909</span></p>
+                    <p class="max-w-[98%] p-4 text-center">Enter your information and get your questions answered quickly and discreetly or call us at: <span class="font-bold ">540.433.6909</span></p>
                 </div>
-                <div class="flex pl-4">
+                <div class="flex pl-4 max-[595px]:flex-col-reverse max-[595px]:items-center max-[595px]:pl-0">
                     <div class="inp-area">
-                        <div class="flex py-1 px-4">
+                        <div class="flex py-1 px-4 max-[595px]:px-0">
                             <p class="min-w-12 text-sm">Name:</p>
                             <input type="text" class="typearea1">
                         </div>
-                        <div class="flex py-1 px-4">
+                        <div class="flex py-1 px-4 max-[595px]:px-0">
                             <p class="min-w-12 text-sm">Email:</p>
                             <input type="text" class="typearea1">
                         </div>
-                        <div class="flex py-1 px-4">
+                        <div class="flex py-1 px-4 max-[595px]:px-0">
                             <p class="min-w-12 text-sm">Phone:</p>
                             <input type="text" class="typearea1">
                         </div>
                     </div>
                     <div class="form-img">
-                        <img src="images/confidential.png" alt="" class="rotate-[12deg] mt-3 h-14 ml-12 xl:mt-6 xl:ml-16">
+                        <img src="images/confidential.png" alt="" class="rotate-[12deg] xl:mt-3 xl:h-14 xl:ml-12 mt-8 ml-16 max-[595px]:pb-8 max-[595px]:mt-6 max-[595px]:ml-0  ">
                     </div>
                 </div>
                 <div class="form-flex4">
-                    <input type="text" class="min-w-[85%] h-[100px] ml-12 mt-3">
+                    <input type="text" class="min-w-[85%] h-[100px] ml-12 mt-3 max-[595px]:ml-2 max-[595px]:min-w-[94%]">
                 </div>
-                <div class=" flex justify-around mt-4 items-center gap-3">
+                <div class=" flex xl:flex-row xl:justify-around justify-center flex-col mt-4 items-center gap-3">
                     <div class="">
                     <p class="italic text-gray-500 text-md">100% Privacy Guaranteed</p>
                     </div>
@@ -103,17 +126,17 @@
     </div>
 </section>
 <section>
-            <div class="container p-8 max-w-[1350px] w-full mx-auto">
-                <div class="flex gap-5">
-                <div class="border-r border-gray-300 pr-8" >
+            <div class="p-8 max-w-[1350px] w-full mx-auto">
+                <div class="flex flex-col gap-5 md:flex-row">
+                <div class="md:border-r border-gray-300 pr-8 max-md:border-b" >
                     <div class="py-2 max-w-[415px]">
                     <p class="text-3xl max-w-[475px] text-gray-500 font-gazeta">CHARGED WITH <span class="text-[#a11a31]">DUI?</span></p>
                     </div>
                     <div class="text-[#a11a31] text-2xl max-w-[475px]">
                         <p>FREE CASE EVALUATION</p>
                     </div>
-                    <div class="flex gap-8">
-                        <div class="min-w-[240px] py-2 text-md">
+                    <div class="flex gap-8 max-[1120px]:min-h-[135px] max-[1060px]:min-h-[167px] max-[768px]:min-h-[80px]">
+                        <div class="md:min-w-[240px] py-2 text-md ">
                         <p class="p1">Being charged with a DUI can be scary. Get the help you deserve. </p>
                         <p class="pt-2">Click here to let us know how we can help you with your case.</p>
                         </div>
@@ -121,78 +144,129 @@
                             <img src="images/paste_board.gif" alt="" class="max-w-max">
                         </div>
                     </div>
-                    <div class="first-part-button">
+                    <div class="flex justify-end mt-3 pb-4">
                         <button type="button" class="flex ml-32 items-center border-0 text-med text-white px-4 gap-2 font-medium bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)] hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer">CLICK HERE <img src="images/bullet_white.gif" alt="" class="btn-bul"></button>
                     </div>
                 </div>
-                <div class="border-r border-gray-300 pl-4 pr-8">
+                <div class="border-r border-gray-300 pl-4 pr-8 max-[1120px]:hidden">
                     
-                    <div class="text-part">
+                    <div class="max-[1120px]: text-center">
                         <div class="py-2">
                             <p class="text-3xl text-gray-500 font-gazeta">LAW <span class="text-[#a11a31]">BLOG</span></p>
                         </div>
                     </div>
-                    <div class="flex">
-                        <div class="max-w-[75%]">
-                            <p class="text-md">Learn more about Virginia Traffic Laws.</p>
-                        </div> 
+                    <div class="flex max-[1120px]:flex-col-reverse">
+                    <div class="max-w-[75%] max-[1120px]:max-w-[100%]">
+                        <p class="text-md max-[1120px]: text-center">Learn more about Virginia Traffic Laws.</p>
+                    </div> 
                     
-                    <div class="w-[100%] h-auto">
+                    <div class="w-[100%] h-auto max-[1120px]:flex max-[1120px]:justify-center">
                         <img src="images/pic1.gif" alt="" class="laptop-img">
                     </div>
                     </div>
                     
-                    <div class="first-part-button2">
-                        <button type="button" class="flex ml-8 mt-4 items-center border-0 text-med text-white px-4 gap-2 font-medium hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)]">CLICK HERE <img src="images/bullet_white.gif" alt="" class="btn-bul"></button>
+                    <div class="first-part-button2 max-[1120px]: flex max-[1120px]: justify-center">
+                        <button type="button" class="flex max-[1120px]:m-0 max-[1120px]:mt-2 ml-8 mt-4 items-center border-0 text-med text-white px-4 gap-2 font-medium hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)]">CLICK HERE <img src="images/bullet_white.gif" alt="" class="btn-bul"></button>
                     </div>
                     <div class=" pb-4 border-b border-gray-300"></div>
                     <div class="second-part-b">
                         
-                        <div class="text-part">
+                        <div class="max-[1120px]: text-center">
                             <div class="py-2 pt-6">
                                 <p class="text-3xl text-gray-500 font-gazeta">CASE <span class="text-[#a11a31]">RESULTS</span></p>
                             </div>
-                        <div class="flex">
+                        <div class="flex max-[1120px]:flex-col-reverse">
                             <div class="min-w-[200px]">
                                 <p class="">See how we help our clients.</p>
                                 <p class="">Read our latest case results.</p>
                                 
                             </div>
                             <div class="set-div">
-                                <div class="w-[90%] h-auto">
+                                <div class="w-[90%] h-auto max-[1120px]: flex max-[1120px]: justify-center">
                                     <img src="images/order_icon.gif" alt="" class="max-w-max">
                                 </div> 
                             </div>
                         </div>
                         
                         <div class="first-part-button3">
-                            <button type="button" class="flex ml-8 items-center border-0 text-med text-white px-4 gap-2 font-medium hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)]">CLICK HERE <img src="images/bullet_white.gif" alt="" class="btn-bul"></button>
+                            <button type="button" class="flex max-[1120px]:mt-2 ml-8 items-center border-0 text-med text-white px-4 gap-2 font-medium hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)]">CLICK HERE <img src="images/bullet_white.gif" alt="" class="btn-bul"></button>
                         </div>
                         </div>
                         </div>
                     </div>
-                    <div class="px-4">
-                        <div class="flex gap-6 w-[100%] h-auto">
+                    <div class="md:px-4 pr-8">
+                        <div class="flex justify-center md:justify-start gap-6 w-[100%] h-auto">
                             <img src="images/qqq.gif" alt="">
                             <img src="images/national_college_small.gif" alt="">
                         </div>
                         <div class="first-p-sec4">
                             <p class="text-3xl text-gray-500 font-gazeta py-4">CERTIFICATES & <span class="text-[#a11a31]">CREDENTIALS</span></p>
                         </div>
-                        <div class="max-w-[90%]">
+                        <div class="max-w-[90%] max-[1120px]:min-h-[64px] max-[768px]:min-h-[30px]">
                             <p class="text-med">Keefer Law Firm has protected the rights of Virginians for over 30 years.</p>
                         </div>
-                        <div class="first-part-button4">
-                            <button type="button" class="flex ml-32 mt-3 items-center border-0 text-med text-white px-4 gap-2 hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer font-medium bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)] lg:text-nowrap">CLICK HERE <img src="images/bullet_white.gif" alt="" class="btn-bul"></button>
+                        <div class="flex justify-end">
+                            <button type="button" class="flex md:mr-16 mt-3 items-center border-0 text-med text-white px-4 gap-2 hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer font-medium bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)] lg:text-nowrap">CLICK HERE <img src="images/bullet_white.gif" alt="" class="btn-bul"></button>
                         </div>
                     </div>
                 </div>
+                <!--...-->
+                <div class="border-t border-gray-300  pr-8 max-[1120px]:flex hidden mt-4 md:justify-around max-[768px]:block max-md:border-b ">
+                <div class="flex flex-col md:flex-row "> 
+                <div class="max-md:border-b">
+                    <div class="max-[1120px]:text-center max-[768px]:text-left">
+                        <div class="py-2">
+                            <p class="text-3xl text-gray-500 font-gazeta">LAW <span class="text-[#a11a31]">BLOG</span></p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                    <div class="max-w-[75%] max-[1120px]:w-[100%]">
+                        <p class="text-md max-[1120px]: text-left">Learn more about Virginia Traffic Laws.</p>
+                    </div> 
+                    
+                    <div class="w-[100%] h-auto max-[1120px]:flex max-[1120px]:justify-center max-[768px]:justify-normal ">
+                        <img src="images/pic1.gif" alt="" class="laptop-img">
+                    </div>
+                    </div>
+                    
+                    <div class="first-part-button2 max-[1120px]: flex max-[1120px]: justify-center max-[768px]:justify-end py-3">
+                        <button type="button" class="flex max-[1120px]:m-0 max-[1120px]:mt-2 ml-8 mt-4 items-center border-0 text-med text-white px-4 gap-2 font-medium hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)]">CLICK HERE <img src="images/bullet_white.gif" alt="" class="btn-bul"></button>
+                    </div>
+                </div>
+                <div>
+                    <div class="second-part-b">
+                        
+                        <div class="max-[1120px]:text-center max-[768px]:text-left">
+                            <div class="py-2">
+                                <p class="text-3xl text-gray-500 font-gazeta">CASE <span class="text-[#a11a31]">RESULTS</span></p>
+                            </div>
+                        <div class="flex ">
+                            <div class="md:min-w-[200px] text-left">
+                                <p class="">See how we help our clients.</p>
+                                <p class="">Read our latest case results.</p>
+                                
+                            </div>
+                            <div class="set-div">
+                                <div class="w-[90%] h-auto max-[1120px]: flex max-[1120px]: justify-center">
+                                    <img src="images/order_icon.gif" alt="" class="max-w-max">
+                                </div> 
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-end md:justify-normal py-3">
+                            <button type="button" class="flex ml-8 items-center border-0 text-med text-white px-4 gap-2 font-medium hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)]">CLICK HERE <img src="images/bullet_white.gif" alt="" class="btn-bul"></button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                <!--...-->
             </div>
 </section>
 <section>
     <div class="max-w-[1350px] w-full mx-auto">
         <div>
-            <div class="flex justify-center gap-8 px-9">
+            <div class="flex flex-col md:flex-row  justify-center gap-8 px-9 ">
                 <div class="sec5-left">
                     <div>
                         <div class="text-3xl text-[#838383] font-gazeta py-4">
@@ -229,7 +303,7 @@
                         </div>
                         </div>
                         <div class="first-p-sec5-1">
-                            <p class="text-3xl text-[#838383] font-gazeta py-4">LEARN MORE <span class="text-[#a11a31]">ABOUT</span></p>
+                            <p class="text-3xl text-[#838383] font-gazeta pt-4">LEARN MORE <span class="text-[#a11a31]">ABOUT</span></p>
                         </div>
                     </div>
                 </div>
@@ -237,7 +311,7 @@
                     <div class="max-w-[725px] text-wrap">
                         <div class="text-[#676366]">
                         <h1 class="font-gazeta p-5 text-2xl">&lt;h1&gt; PAGE TITLE HERE</h1>
-                        <p class="text-wrap">Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                        <p class="text-wrap tracking-wider leading-7 md:tracking-normal md:leading-normal">Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
                             occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit 
                             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Asunt in 
                             anim uis aute irure dolor in reprehenderit in voluptate velit esse 
@@ -249,40 +323,40 @@
                 </div>
                 <div class="sec5-right">
                     <div>
-                        <div class="text-2xl font-gazeta text-[#676366] max-w-[200px] pt-4">
+                        <div class="text-2xl font-gazeta text-[#676366] md:max-w-[200px] pt-4 ">
                             <p>CLIENT <span class="text-[#a11a31]">TESTIMONIALS</span></p>
                         </div>
-                        <div class="max-w-[200px]">
+                        <div class="md:max-w-[200px]">
                             <p>Read what other say about Keefer Law Firm.</p>
                         </div>
-                        <div class="first-part-button5">
+                        <div class="flex justify-end">
                             <button type="button" class="flex ml-16 text-nowrap  items-center border-0 text-med hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer text-white px-4 gap-2 font-medium bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)] mt-4">CLICK HERE</button>
                         </div>
                     </div>
                     <div>
-                        <div class="text-2xl font-gazeta text-[#676366] max-w-[200px] pt-4 ">
+                        <div class="text-2xl font-gazeta text-[#676366] md:max-w-[200px] pt-4 ">
                             <p>DOWNLOAD <span class="text-[#a11a31]">FREE</span> REPORTS</p>
                         </div>
-                        <div class="max-w-[200px]">
+                        <div class="md:max-w-[200px]">
                             <p>Discover the truth about Virginia Law.</p>
                         </div>
-                        <div class="first-part-button5">
+                        <div class="flex justify-end">
                             <button type="button" class="flex ml-16 text-nowrap items-center border-0 text-med hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer text-white px-4 gap-2 font-medium bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)] mt-4">CLICK HERE</button>
                         </div>
                     </div>
                     <div >
-                        <div class="text-2xl font-gazeta text-[#676366] max-w-[200px] pt-4">
+                        <div class="text-2xl font-gazeta text-[#676366] md:max-w-[200px] pt-4">
                             <p>CONTACT <span class="text-[#a11a31]">OUR</span> OFFICE</p>
                         </div>
-                        <div class="max-w-[200px]">
+                        <div class="md:max-w-[200px]">
                             <p>Get your questions answered right now.</p>
                         </div>
-                        <div class="first-part-button5">
+                        <div class="flex justify-end">
                             <button type="button" class="flex ml-16 text-nowrap items-center border-0 hover:bg-[linear-gradient(to_bottom,_#901c18_60%,_#5a0909_100%)] transition duration-300 cursor-pointer text-med text-white px-4 gap-2 font-medium bg-[linear-gradient(to_bottom,_#a9050a_60%,_#a3080a_100%)] mt-4">CLICK HERE</button>
                         </div>
                     </div>
                     <div>
-                        <div class="p-4">
+                        <div class="flex flex-row justify-center md:flex-col pt-6">
                             <div class="flex justify-center p-2">
                             <img src="images/avo_rating_large.gif" alt="">
                             </div>
@@ -291,12 +365,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center pt-6">
                         <div class="font-gazeta text-xl text-[#676366] pt-2">
                             <p>FOLLOW <span>US</span></p>
                         </div>
                     </div>
-                    <div class="flex justify-center pt-2 gap-2 h-[44px]">
+                    <div class="flex justify-center pt-2 gap-2 h-[44px] pb-3">
                         <img src="images/fb_icon.gif" alt="">
                         <img src="images/google_icon.gif" alt="">
                         <img src="images/twitter_icon.gif" alt="">
@@ -313,6 +387,6 @@
 
     </div>
 </section>  
-<script src="tailwind.config.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

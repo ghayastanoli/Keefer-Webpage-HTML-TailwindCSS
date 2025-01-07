@@ -1,11 +1,12 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-    theme: {
-      extend: {
-        fontFamily: {
-          'customFont': ["ariblk", "sans"],
-        },
-      },
-    },
-    // Other Tailwind configuration settings
-  };
+  content: [],
+  theme: {
+    extend: {},
+    screens: {
+      'max-1120': { max: '1120px' },
+    }
+  },
+  plugins: [],
+}
+
