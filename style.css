@@ -15,6 +15,9 @@
 .font-gazeta{
     font-family: 'gazeta';
 }
+.font-times{
+    font-family: 'Times New Roman', Times, serif;
+}
 .left-card{
     display: flex;
     background-color: #838383;
